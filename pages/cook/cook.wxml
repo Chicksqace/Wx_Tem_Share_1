@@ -1,0 +1,54 @@
+<!--pages/cook/cook.wxml-->
+<view class='all'>
+  <view class='top'>
+    <view class='left'>
+      <image src='/images/cook/1.png'></image>
+    </view>
+    <view class='right'>
+      <text>pizza</text>
+    </view>
+  </view>
+
+  <view class='middle'>
+    <view class='title'>-食材清单-</view>
+    <view class='content'>
+      <view class='list'>
+        <text class='left'>xxxxxx</text>
+        <text class='right'>xxg</text>
+      </view>
+
+      <view class='list'>
+        <text class='left'>xxxxxx</text>
+        <text class='right'>xxg</text>
+      </view>
+
+      <view class='list'>
+        <text class='left'>xxxxxx</text>
+        <text class='right'>xxg</text>
+      </view>
+
+      <view class='list'>
+        <text class='left'>xxxxxx</text>
+        <text class='right'>xxg</text>
+      </view>
+    </view>
+  </view>
+
+  <view class='bottom'>
+    <view class='title'>-烹饪步骤-</view>
+  </view>
+</view>
+<view class='col'>
+  <view class='block'>
+    <image src='/images/icon/like.png'></image>
+    <view>喜欢</view>
+  </view>
+  <view class='block'>
+    <image src='/images/icon/collect.png'></image>
+    <view>收藏</view>
+  </view>
+  <view class='block'>
+    <image src='/images/icon/share.png'></image>
+    <view>分享</view>
+  </view>
+</view>

@@ -1,0 +1,71 @@
+/* pages/collect/collect.wxss */
+.userinfo {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  margin-top: 50rpx;
+}
+
+.userinfo-avatar {
+  width: 170rpx;
+  height: 170rpx;
+  margin: 20rpx;
+  margin-left:70rpx;
+  margin-right: 10rpx; 
+  border-radius: 50%;
+  border:6rpx solid #5a5a5b;
+}
+
+.userinfo-nickname {
+  color: #5c5c5c;
+  font-size: 40rpx;
+  margin-top: 110rpx;
+  margin-bottom: 10rpx;
+  border-bottom: 4rpx solid #5a5a5b;
+  text-align: center;
+  width: 150rpx;
+}
+.content{
+  width: 750rpx;
+  border-top: 40rpx solid #f3f3f5;
+  margin-top:50rpx;
+  overflow: hidden;
+}
+.block{
+  float: left;
+  position: relative; 
+}
+.content image{
+  width: 375rpx;
+  /* position: relative; */
+  height: 280rpx;
+}
+.content .mask{
+  width: 375rpx;
+  height: 280rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  background-color: black;
+  opacity: 0.6;
+}
+.content .text{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  text-align: center;
+  padding-top:73rpx;
+  padding-bottom: 73rpx;
+  vertical-align: middle;
+  color: #fff;
+  width: 350rpx;
+}
+.text .tit{
+  font-size: 25px;
+}
+.text .explain{
+  font-size: 15px;
+  margin-top: 10px;
+}

@@ -1,0 +1,96 @@
+<!--pages/menu1/menu1.wxml-->
+<view class='top'>
+  <input type='text' placeholder='今天吃点啥?' class='input' placeholder-style='color:#c4c3c3'></input>
+  <view class='search'>
+    <image src='/images/icon/search.png'></image>
+    <text>搜索</text>
+  </view>
+</view>
+
+<view class="swiper-tab">
+  <view class="swiper-tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="clickTab"><text data-current="0">最热</text></view>
+  <view class="swiper-tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="clickTab"><text data-current="1">最新</text></view>
+</view>
+
+<view class = "{{currentTab == 0 ? 'show':'hidden'}}" >
+    <scroll-view>
+      <view class='recommand'>
+        <view class='box' bindtap='cook'>
+          <view class='left'>
+            <image src='/images/slider/03.jpg'></image>
+          </view>
+          <view class='right'>
+            <text>-------------------------------------------</text>
+          </view>
+        </view>
+
+        <view class='box' bindtap='cook'>
+          <view class='left'>
+            <image src='/images/slider/03.jpg'></image>
+          </view>
+          <view class='right'>
+            <text>-------------------------------------------</text>
+          </view>
+        </view>
+
+        <view class='box' bindtap='cook'>
+          <view class='left'>
+            <image src='/images/slider/03.jpg'></image>
+          </view>
+          <view class='right'>
+            <text>-------------------------------------------</text>
+          </view>
+        </view>
+
+        <view class='box' bindtap='cook'>
+          <view class='left'>
+            <image src='/images/slider/03.jpg'></image>
+          </view>
+          <view class='right'>
+            <text>-------------------------------------------</text>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+</view>
+  <view class = "{{currentTab == 1 ? 'show':'hidden'}}" >
+    <scroll-view>
+      <view class='recommand'>
+        <view class='box' bindtap='cook'>
+          <view class='left'>
+            <image src='/images/slider/02.jpg'></image>
+          </view>
+          <view class='right'>
+            <text>-------------------------------------------</text>
+          </view>
+        </view>
+
+        <view class='box' bindtap='cook'>
+          <view class='left'>
+            <image src='/images/slider/02.jpg'></image>
+          </view>
+          <view class='right'>
+            <text>-------------------------------------------</text>
+          </view>
+        </view>
+
+        <view class='box' bindtap='cook'>
+          <view class='left'>
+            <image src='/images/slider/02.jpg'></image>
+          </view>
+          <view class='right'>
+            <text>-------------------------------------------</text>
+          </view>
+        </view>
+
+        <view class='box' bindtap='cook'>
+          <view class='left'>
+            <image src='/images/slider/02.jpg'></image>
+          </view>
+          <view class='right'>
+            <text>-------------------------------------------</text>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>

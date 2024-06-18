@@ -1,0 +1,66 @@
+/* pages/cook/cook.wxss */
+.all{
+  overflow: hidden;
+  padding: 55rpx;
+}
+.top{
+  overflow: hidden;
+}
+.top .left{
+  float: left;
+  margin-right: 50rpx;
+}
+.top.right{
+  float: left;
+}
+.top .left image{
+  width: 320rpx;
+  height: 320rpx;
+}
+.top .right text{
+  font-size: 60rpx;
+  font-weight: bold;
+  color: #000000;
+  vertical-align: middle;
+  line-height: 280rpx;
+}
+.middle,.bottom{
+  margin-top:50rpx; 
+  text-align: center;
+}
+.title{
+  font-size: 38rpx;
+}
+.list{
+  margin-top: 10rpx;
+  border-bottom: 3rpx solid #cbcbcb;
+  font-size: 38rpx;
+  overflow: hidden;
+}
+.list .left{
+  float: left;
+}
+.list .right{
+  float: right;
+}
+.col{
+  overflow: hidden;
+  margin-bottom: 0;
+  background: #f0eff5;
+  width: 100%;
+  position: fixed;
+  bottom:0px;
+  display: flex;
+  justify-content: center;
+}
+.col .block{
+  float: left;
+  padding: 4rpx 4rpx;
+  margin:10rpx 83rpx;
+  font-size: 10px;
+  text-align: center;
+}
+.col image{
+  width: 70rpx;
+  height: 70rpx;
+}

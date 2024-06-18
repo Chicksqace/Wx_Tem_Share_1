@@ -1,0 +1,26 @@
+<!--pages/mine/mine.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+</view>
+<view class='content'>
+  <view class='mylove' bindtap='collect'>
+    <image src='/images/icon/collect.png'></image>
+    <text>我的收藏</text>
+  </view>
+  <view class='mylove' bindtap='collect'>
+    <image src='/images/icon/foot.png'></image>
+    <text>我的足迹</text>
+  </view>
+  <view class='mylove' bindtap='collect'>
+    <image src='/images/icon/like.png'></image>
+    <text>我喜欢的</text>
+  </view>
+</view>
+
+

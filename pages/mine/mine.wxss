@@ -1,0 +1,51 @@
+/* pages/mine/mine.wxss */
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  margin-top: 50rpx;
+}
+
+.userinfo-avatar {
+  width: 170rpx;
+  height: 170rpx;
+  margin: 20rpx;
+  margin-left:70rpx;
+  margin-right: 10rpx; 
+  border-radius: 50%;
+  border:6rpx solid #5a5a5b;
+}
+
+.userinfo-nickname {
+  color: #5c5c5c;
+  font-size: 40rpx;
+  margin-top: 110rpx;
+  margin-bottom: 10rpx;
+  border-bottom: 4rpx solid #5a5a5b;
+  text-align: center;
+  width: 150rpx;
+}
+.content{
+  width: 750rpx;
+  border-top: 40rpx solid #f3f3f5;
+  margin-top:50rpx; 
+}
+.mylove{
+  /* border: 2rpx solid #ccc; */
+  font-size: 35rpx;
+  font-weight: 400;
+  letter-spacing: 1rpx;
+  padding: 20rpx 45rpx;
+  color: #666;
+  position: relative;
+}
+.mylove image{
+  width: 80rpx;
+  height: 80rpx;
+}
+.mylove text{
+  position: absolute;
+  top: 40rpx;
+  left: 145rpx;
+}
